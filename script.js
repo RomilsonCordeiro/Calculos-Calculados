@@ -28,9 +28,9 @@ const handleButtonClick = (value) => {
   } else if (value === ".") {
     appendPoint();
   } else if (value === "C") {
-    deleteLast();
-  } else if (value === "CE") {
     clearAll();
+  } else if (value === "CE") {
+    deleteLast();
   } else if (value === "=") {
     evaluate();
   } else {
